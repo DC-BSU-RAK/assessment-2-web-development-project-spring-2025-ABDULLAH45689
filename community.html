@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameSphere - Community</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                <span>GameSphere</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="top-games.html">Top Games</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="community.html" class="active">Community</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="page-header">
+            <h1>GameSphere Community</h1>
+            <p>Connect with fellow gamers and share your passion</p>
+        </section>
+        
+        <section class="community-features">
+            <div class="feature-card">
+                <i class="fas fa-comments"></i>
+                <h3>Forums</h3>
+                <p>Join discussions about your favorite games and genres</p>
+                <a href="#" class="cta-button">Visit Forums</a>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>Clubs</h3>
+                <p>Find or create gaming groups with similar interests</p>
+                <a href="#" class="cta-button">Browse Clubs</a>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-trophy"></i>
+                <h3>Events</h3>
+                <p>Participate in tournaments and community events</p>
+                <a href="#" class="cta-button">View Events</a>
+            </div>
+        </section>
+        
+        <section class="community-highlights">
+            <h2>Community Highlights</h2>
+            
+            <div class="highlight-tabs">
+                <button class="highlight-btn active" data-tab="popular">Popular Posts</button>
+                <button class="highlight-btn" data-tab="recent">Recent Activity</button>
+                <button class="highlight-btn" data-tab="featured">Featured Content</button>
+            </div>
+            
+            <div class="highlight-content active" id="popular">
+                <article class="community-post">
+                    <div class="post-header">
+                        <img src="person2.jpeg" alt="User Avatar" class="avatar">
+                        <div class="user-info">
+                            <h4>GameMaster99</h4>
+                            <span class="post-date">2 days ago</span>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h3>What's your favorite game of all time and why?</h3>
+                        <p>I'm curious to hear what games have left the biggest impact on our community members. For me, it's The Witcher 3 - the storytelling and world-building are unmatched!</p>
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 142</span>
+                            <span><i class="fas fa-comment"></i> 87</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="community-post">
+                    <div class="post-header">
+                        <img src="person1.jpeg" alt="User Avatar" class="avatar">
+                        <div class="user-info">
+                            <h4>PixelPirate</h4>
+                            <span class="post-date">5 days ago</span>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <h3>Just finished Elden Ring - my thoughts (no spoilers)</h3>
+                        <p>After 120 hours, I've finally completed my first playthrough. The sense of exploration and discovery is like nothing I've experienced before...</p>
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 98</span>
+                            <span><i class="fas fa-comment"></i> 45</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="highlight-content" id="recent">
+                <!-- Recent activity content would go here -->
+            </div>
+            
+            <div class="highlight-content" id="featured">
+                <!-- Featured content would go here -->
+            </div>
+        </section>
+        
+        <section class="join-community">
+            <h2>Join Our Growing Community</h2>
+            <p>Create an account to participate in discussions, share your gaming experiences, and connect with players worldwide</p>
+            <div class="auth-buttons">
+                <a href="#" class="signup-btn">Sign Up</a>
+                <a href="#" class="login-btn">Log In</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About GameSphere</h3>
+                <p>Your ultimate destination for game reviews, news, and community discussions.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="top-games.html">Top Games</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 GameSphere. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
